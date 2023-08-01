@@ -11,7 +11,7 @@ function findLongestSequenceOfOnes(vector) {
             }
         }
     }
-    return longestSequence;
+    return curSequence > longestSequence ? curSequence : longestSequence;
 }
 
 // Требуется найти в бинарном векторе самую длинную последовательность единиц и вывести её длину.
